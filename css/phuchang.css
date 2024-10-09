@@ -1,0 +1,114 @@
+.container-phuchang {
+    position: relative;
+    width: 390px;
+    height: 190px;
+    overflow: hidden;
+    display: block;
+    font-size: 35px;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    line-height: 1.5em;
+}
+.container-phuchang .text-a,
+.container-phuchang .text-b,
+.container-phuchang .text-c
+{
+    font-size: 3.025rem;
+    font-family: "Great Vibes", cursive;
+    color: #fff;
+    font-weight: 100;
+    text-shadow: 0px 4px 0px rgb(0 0 0 / 35%);
+}
+
+.container-phuchang .text-a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-phuchang .text-b {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-phuchang .text-c {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.text-owner {
+    font-size: 2.69rem;
+    font-family: "Great Vibes", cursive;
+    color: var(--primary-color);
+    font-weight: 100;
+    /* text-shadow: 0px 4px 0px rgb(0 0 0 / 35%); */
+}
+.text-owenr-simple {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.text-owner-card {
+    font-size: 3.3rem;
+    font-weight: 600;
+}
+
+/* Footer CSS ovan */
+.footer-section {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.footer-section .col-xs-12 {
+    width: 100%;
+}
+
+.footer-section .couple-name {
+    background: url(../images/footer-couple-name-frame.png) center center / cover no-repeat local;
+    width: 415px;
+    height: 483px;
+    margin: 0 auto 120px;
+    padding-left: 45px;
+    display: table;
+    text-align: center;
+}
+
+.footer-section .couple-name h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 48px;
+    font-size: 3rem;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 400;
+}
+
+.footer-section h3 {
+    font-family: "Great Vibes", cursive;
+    font-size: 48px;
+    font-size: 3rem;
+    margin: 0 0 0.2em;
+    font-weight: 400;
+}
+
+@media (max-width: 767px) {
+    .footer-section .couple-name h2 {
+        font-size: 38px;
+        font-size: 2.375rem;
+    }
+    .footer-section .couple-name {
+        width: 300px;
+        height: 349px;
+        margin: 0 auto 80px;
+        padding-left: 45px;
+    }
+    .footer-section h3 {
+        font-size: 30px;
+        font-size: 1.875rem;
+    }
+}

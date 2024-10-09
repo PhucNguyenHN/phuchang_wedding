@@ -178,7 +178,7 @@ html{background-color:#fff}
 }
 @media (min-width:550px) {
     #gap-922487992 {
-        padding-top: 211px;
+        padding-top: 151px;
     }
 }
 
@@ -383,7 +383,7 @@ html{background-color:#fff}
 }
 
 #image_1479263000 {
-    width: 40%;
+    width: 50%;
 }
 
 #text-1021982096 {
@@ -522,4 +522,368 @@ html{background-color:#fff}
         padding-top: 30px;
         padding-bottom: 30px;
     }
+}
+
+/* Section 7th */
+#image_2037564968 {
+    width: 45%;
+}
+@media (min-width:550px) {
+    #image_2037564968 {
+        width: 23%;
+    }
+}
+
+#text-981693674 {
+    text-align: center;
+}
+
+#gap-2024926172 {
+    padding-top: 26px;
+}
+#banner-2019042354 {
+    padding-top: 450px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#banner-2019042354 .bg.bg-loaded {
+    background-image: url(https://caoson-thuphuongwedding.thiepcuoionline.net/wp-content/uploads/2024/02/DSC04033-K.jpg);
+}
+#banner-2019042354 .bg {
+    background-position: 3% 67%;
+}
+@media (min-width: 550px) {
+    #banner-2019042354 {
+        padding-top: 300px;
+    }
+}
+@media (min-width: 850px) {
+    #banner-2019042354 {
+        padding-top: 500px;
+    }
+}
+
+#text-3587970403 {
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+}
+#text-3587970403 > * {
+    color: rgb(255, 255, 255);
+}
+
+#col-1235291645 > .col-inner {
+    padding: 53px 27px 31px 23px;
+}
+
+#banner-62673472 {
+    padding-top: 450px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#banner-62673472 .bg.bg-loaded {
+    background-image: url(https://caoson-thuphuongwedding.thiepcuoionline.net/wp-content/uploads/2024/02/DSC04593-K.jpg);
+}
+#banner-62673472 .bg {
+    background-position: 43% 59%;
+}
+@media (min-width: 550px) {
+    #banner-62673472 {
+        padding-top: 300px;
+    }
+}
+@media (min-width: 850px) {
+    #banner-62673472 {
+        padding-top: 500px;
+    }
+}
+/* Styles for text elements */
+#text-337155427 {
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+}
+#text-337155427 > * {
+    color: rgb(255, 255, 255);
+}
+
+#text-2137126377 {
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+}
+#text-2137126377 > * {
+    color: rgb(255, 255, 255);
+}
+
+/* Padding for column inner elements */
+#col-1571789690 > .col-inner,
+#col-2041889249 > .col-inner {
+    padding: 53px 27px 31px 23px;
+}
+
+/* Styles for banners */
+#banner-976626683 {
+    padding-top: 400px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#banner-976626683 .bg.bg-loaded {
+    background-image: url(https://caoson-thuphuongwedding.thiepcuoionline.net/wp-content/uploads/2024/02/DSC04102-BAN-1.jpg);
+}
+#banner-976626683 .bg {
+    background-position: 83% 19%;
+}
+@media (min-width: 550px) {
+    #banner-976626683 {
+        padding-top: 300px;
+    }
+}
+@media (min-width: 850px) {
+    #banner-976626683 {
+        padding-top: 510px;
+    }
+}
+/* Styles for gap elements */
+#gap-1452816843 {
+    padding-top: 61px;
+}
+
+/* Styles for the image container */
+#image_89257947 {
+    width: 45%;
+}
+@media (min-width: 550px) {
+    #image_89257947 {
+        width: 23%;
+    }
+}
+
+/* Styles for text elements */
+#text-1860157873 {
+    text-align: center;
+}
+
+/* Div 8th */
+#col-343375185 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.img:hover {
+    transform: scale(1.05);
+}
+
+.img-inner {
+    height: 100%;
+    width: 100%;
+}
+
+.image-lightbox {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    #col-343375185 {
+        flex-direction: column;
+    }
+
+    .img {
+        width: 100%;
+    }
+}
+#col-108230858 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.img:hover {
+    transform: scale(1.05);
+}
+
+.img-inner {
+    height: 100%;
+    width: 100%;
+}
+
+.image-lightbox {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    #col-108230858 {
+        flex-direction: column;
+    }
+
+    .img {
+        width: 100%;
+    }
+}
+
+#image_695932963 {
+    width: 100%;
+}
+
+#image_466913704 {
+    width: 100%;
+}
+
+#image_1718506614 {
+    width: 100%;
+}
+
+#image_1318043376 {
+    width: 100%;
+}
+
+#image_161636801 {
+    width: 100%;
+}
+
+#image_1832393760 {
+    width: 100%;
+}
+
+#image_2082798058 {
+    width: 100%;
+}
+
+/* Div 9th */
+#text-4028076304 {
+    text-align: center;
+}
+
+#col-711421435 > .col-inner {
+    padding: 37px 30px 30px 30px;
+    border-radius: 6px;
+}
+
+.wpcf7-form-control {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.wpcf7-form-control-wrap label {
+    font-weight: bold;
+}
+
+.wpcf7-form-control.wpcf7-text,
+.wpcf7-form-control.wpcf7-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.wpcf7-form-control.wpcf7-checkbox,
+.wpcf7-form-control.wpcf7-radio {
+    display: flex;
+    align-items: center;
+}
+
+.wpcf7-submit {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.wpcf7-submit:hover {
+    background-color: #4cae4c;
+}
+
+#gap-1030034571 {
+    padding-top: 30px;
+}
+
+/* Form submit */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    padding: 15px;
+}
+
+.icon-box {
+    display: flex;
+    align-items: center;
+}
+
+.icon-box-img {
+    margin-right: 10px;
+}
+
+.gap-element {
+    display: block;
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media (min-width: 550px) {
+    .icon-box-text p {
+        font-size: 1rem;
+    }
+}
+/* Global styles */
+#col-1324753547 > .col-inner {
+    padding: 19px 15px 1px 15px;
+    border-radius: 10px;
+}
+
+#row-1319522764 > .col > .col-inner {
+    border-radius: 8px;
+}
+
+#col-724200556 > .col-inner,
+#col-727535294 > .col-inner,
+#col-1824112198 > .col-inner {
+    padding: 12px 15px 5px 15px;
+}
+
+/* Text styles */
+#text-617041960,
+#text-2257509462,
+#text-1097821326 {
+    font-size: 0.75rem;
+}
+
+@media (min-width: 550px) {
+    #text-617041960,
+    #text-2257509462,
+    #text-1097821326 {
+        font-size: 1rem;
+    }
+}
+
+/* Color styles */
+.icon-box-text span {
+    color: #ed1c24; /* Red color for dates */
+}
+
+.icon-box-text span:last-child {
+    color: #e85f5f; /* Soft red color for location text */
+}
+
+#section_1200692753 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#section_1200692753 .section-bg.bg-loaded {
+    background-image: url(https://caoson-thuphuongwedding.thiepcuoionline.net/wp-content/uploads/2023/05/Backgrou-24.jpg);
+}
+#section_1200692753 .section-bg {
+    background-position: 0% 9%;
 }
