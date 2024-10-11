@@ -112,3 +112,118 @@
         font-size: 1.875rem;
     }
 }
+
+/* Scroll right */
+
+@keyframes bounce {
+    0%, 100%, 20%, 50%, 80% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+
+@media (min-width: 768px) {
+    #GROUP546, #BOX435 {
+        width: 60px;
+        height: 60px;
+    }
+    #GROUP546 {
+        top: 30px;
+    }
+    #SHAPE443, #SHAPE445 {
+        top: 10px;
+        left: 10px;
+    }
+    #SHAPE439, #SHAPE440, #SHAPE441, #SHAPE442, #SHAPE443, #SHAPE445 {
+        width: 40px;
+        height: 40px;
+    }
+    #GROUP537 {
+        right: 15px;
+        bottom: 15px;
+        width: 60px;
+        height: 90px;
+    }
+}
+@media (max-width: 767px) {
+    #GROUP537 {
+        right: 15px;
+        bottom: 15px;
+        width: 51px;
+        height: 51px;
+    }
+    #GROUP537, #GROUP538 {
+        width: 51px;
+        height: 51px;
+    }
+    #GROUP546, #BOX435 {
+        width: 50px;
+        height: 50px;
+    }
+    #GROUP546.ladi-animation > .ladi-group {
+        animation-delay: 0s;
+    }
+    #SHAPE445 {
+        width: 33px;
+        height: 33px;
+        top: 7.576px;
+        left: 8px;
+    }
+}
+
+#GROUP537 {
+    top: auto;
+    left: auto;
+    position: fixed;
+    z-index: 90000050;
+}
+.ladi-element {
+    position: absolute;
+}
+#GROUP546.ladi-animation > .ladi-group {
+    animation-delay: 1s;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.ladi-group {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#BOX435 > .ladi-box {
+    background-color: rgb(121, 113, 113);
+    border-radius: 100px;
+}
+.ladi-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.ladi-transition {
+    transition: all 150ms linear 0s;
+}
+.ladi-shape {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+#SHAPE445 svg:last-child {
+    fill: rgb(255, 255, 255);
+}

@@ -90,6 +90,7 @@
         <!-- Custom CSS & JS -->
         <link rel="stylesheet" href="css/wedding.css">
         <link rel="stylesheet" href="css/phuchang.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="js/wedding.js"></script>
     </head>
     <body class="page-template page-template-page-blank-landingpage page-template-page-blank-landingpage-php page page-id-86310 lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border">
@@ -104,7 +105,7 @@
                 <path d="M 7 5 C 6.449 5 6 5.449 6 6 L 6 20 C 6 20.551 6.449 21 7 21 L 10 21 C 10.551 21 11 20.551 11 20 L 11 6 C 11 5.449 10.551 5 10 5 L 7 5 z M 16 5 C 15.449 5 15 5.449 15 6 L 15 20 C 15 20.551 15.449 21 16 21 L 19 21 C 19.551 21 20 20.551 20 20 L 20 6 C 20 5.449 19.551 5 19 5 L 16 5 z"></path>
             </svg>
         </div>
-        <audio id="musicPlayer" loop="" autoplay="" src="audio/EM-DONG-Y-I-DO-DUC-PHUC-x-911-x-KHAC-HUNG-1ST-LIVE-STAGE.mp3"></audio>
+        <audio id="musicPlayer" loop="" autoplay="" src="audio/EM-DONG-Y-I-DO-DUC-PHUC-x-911-x-KHAC-HUNG-1ST-LIVE-STAGE.mp3" ></audio>
         <script>
             var musicPlayer = document.getElementById("musicPlayer");
             var playPauseButton = document.querySelector(".tdk-music");
@@ -123,6 +124,7 @@
             function waitForUserInteraction() {
                 document.removeEventListener('click', waitForUserInteraction);
                 document.removeEventListener('scroll', waitForUserInteraction);
+                document.removeEventListener('touchstart', waitForUserInteraction);
 
                 setTimeout(function() {
                     toggleMusic();
@@ -131,7 +133,27 @@
 
             document.addEventListener('click', waitForUserInteraction);
             document.addEventListener('scroll', waitForUserInteraction);
+            document.addEventListener('touchstart', waitForUserInteraction);
         </script>
+        <div id="GROUP537" class="ladi-element">
+            <div class="ladi-group">
+                <div data-action="true" id="GROUP546" class="ladi-element ladi-animation">
+                    <div class="ladi-group">
+                        <div id="BOX435" class="ladi-element">
+                            <div class="ladi-box ladi-transition"></div>
+                        </div>
+                        <div id="SHAPE445" class="ladi-element">
+                            <div class="ladi-shape">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" preserveAspectRatio="none" class="" fill="rgba(255, 255, 255, 1)">
+                                    <path d="M450-160v-526L202-438l-42-42 320-320 320 320-42 42-248-248v526h-60Z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+                
         <div id="wrapper">
             <div id="main" class>
                 <section class="section dark hide-for-medium" id="section_618560453">
