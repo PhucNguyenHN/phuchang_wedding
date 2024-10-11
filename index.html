@@ -86,7 +86,6 @@
         <link rel="stylesheet" href="css/custom-css.css">
         <link rel="stylesheet" href="css/kirki-inline-styles.css">
 
-        <!-- Thêm liên kết Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
         <!-- Custom CSS & JS -->
         <link rel="stylesheet" href="css/wedding.css">
@@ -105,14 +104,12 @@
                 <path d="M 7 5 C 6.449 5 6 5.449 6 6 L 6 20 C 6 20.551 6.449 21 7 21 L 10 21 C 10.551 21 11 20.551 11 20 L 11 6 C 11 5.449 10.551 5 10 5 L 7 5 z M 16 5 C 15.449 5 15 5.449 15 6 L 15 20 C 15 20.551 15.449 21 16 21 L 19 21 C 19.551 21 20 20.551 20 20 L 20 6 C 20 5.449 19.551 5 19 5 L 16 5 z"></path>
             </svg>
         </div>
-        <!-- Trình phát nhạc được ẩn -->
-        <audio id="musicPlayer" loop="" autoplay="" src="https://bachlong-trading.com/wp-content/uploads/2024/05/EM-DONG-Y-I-DO-DUC-PHUC-x-911-x-KHAC-HUNG-1ST-LIVE-STAGE.mp3"></audio>
+        <audio id="musicPlayer" loop="" autoplay="" src="audio/EM-DONG-Y-I-DO-DUC-PHUC-x-911-x-KHAC-HUNG-1ST-LIVE-STAGE.mp3"></audio>
         <script>
             var musicPlayer = document.getElementById("musicPlayer");
             var playPauseButton = document.querySelector(".tdk-music");
-            var isPlaying = false; // Ban đầu là không đang phát
+            var isPlaying = false;
     
-            // Hàm để bật hoặc tạm dừng trình phát nhạc và thay đổi hình ảnh của nút
             function toggleMusic() {
                 if (isPlaying) {
                     musicPlayer.pause();
@@ -121,15 +118,20 @@
                     musicPlayer.play();
                     playPauseButton.classList.add("playing");
                 }
-                isPlaying = !isPlaying; // Chuyển trạng thái đang phát hoặc tạm dừng
+                isPlaying = !isPlaying;
             }
+            function waitForUserInteraction() {
+                document.removeEventListener('click', waitForUserInteraction);
+                document.removeEventListener('scroll', waitForUserInteraction);
+
+                setTimeout(function() {
+                    toggleMusic();
+                }, 2000);
+            }
+
+            document.addEventListener('click', waitForUserInteraction);
+            document.addEventListener('scroll', waitForUserInteraction);
         </script>
-        <script>
-            // Đặt hàm toggleMusic() vào hàm setTimeout() để chạy sau 3 giây
-            setTimeout(function() {
-              toggleMusic();
-            }, 3000);
-          </script>
         <div id="wrapper">
             <div id="main" class>
                 <section class="section dark hide-for-medium" id="section_618560453">
@@ -1108,7 +1110,7 @@
 
       gtag('config', 'G-M9V8W6N5WY');
     </script>
-        <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8cf7683a285e9ca4',t:'MTcyODQwMzg5MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+        <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8cf7683a285e9ca4',t:'MTcyODQwMzg5MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='js/script/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
 
     </body>
 </html>
