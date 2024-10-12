@@ -1,62 +1,123 @@
-.container-phuchang {
-    position: relative;
-    width: 390px;
-    height: 190px;
-    overflow: hidden;
-    display: block;
-    font-size: 35px;
-    font-family: 'Alex Brush', cursive;
-    font-weight: 400;
-    display: block;
-    text-align: center;
-    line-height: 1.5em;
+@media (max-width: 767px) {
+    .container-phuchang {
+        position: relative;
+        max-width: 83.3333333333%;
+        height: 160px;
+        overflow: hidden;
+        display: block;
+        font-size: 35px;
+        font-family: 'Alex Brush', cursive;
+        font-weight: 400;
+        display: block;
+        text-align: center;
+        line-height: 1.5em;
+    }
+    .container-phuchang .text-a,
+    .container-phuchang .text-b,
+    .container-phuchang .text-c
+    {
+        font-size: 2.625rem;
+        font-family: "Great Vibes", cursive;
+        color: #fff;
+        font-weight: 100;
+        text-shadow: 0px 4px 0px rgb(0 0 0 / 35%);
+    }
+    
+    .container-phuchang .text-a {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .container-phuchang .text-b {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .container-phuchang .text-c {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .text-owner {
+        font-size: 2.2rem;
+        font-family: "Great Vibes", cursive;
+        color: var(--primary-color);
+        font-weight: 100;
+    }
+    .text-owenr-simple {
+        color: black;
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+    .text-owner-card {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
 }
-.container-phuchang .text-a,
-.container-phuchang .text-b,
-.container-phuchang .text-c
-{
-    font-size: 3.025rem;
-    font-family: "Great Vibes", cursive;
-    color: #fff;
-    font-weight: 100;
-    text-shadow: 0px 4px 0px rgb(0 0 0 / 35%);
+@media (min-width: 768px) {
+    .container-phuchang {
+        position: relative;
+        width: 390px;
+        height: 190px;
+        overflow: hidden;
+        display: block;
+        font-size: 35px;
+        font-family: 'Alex Brush', cursive;
+        font-weight: 400;
+        display: block;
+        text-align: center;
+        line-height: 1.5em;
+    }
+    .container-phuchang .text-a,
+    .container-phuchang .text-b,
+    .container-phuchang .text-c
+    {
+        font-size: 3.025rem;
+        font-family: "Great Vibes", cursive;
+        color: #fff;
+        font-weight: 100;
+        text-shadow: 0px 4px 0px rgb(0 0 0 / 35%);
+    }
+    
+    .container-phuchang .text-a {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .container-phuchang .text-b {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .container-phuchang .text-c {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .text-owner {
+        font-size: 2.69rem;
+        font-family: "Great Vibes", cursive;
+        color: var(--primary-color);
+        font-weight: 100;
+        /* text-shadow: 0px 4px 0px rgb(0 0 0 / 35%); */
+    }
+    .text-owenr-simple {
+        color: black;
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+    .text-owner-card {
+        font-size: 3.3rem;
+        font-weight: 600;
+    }
 }
 
-.container-phuchang .text-a {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.container-phuchang .text-b {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.container-phuchang .text-c {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.text-owner {
-    font-size: 2.69rem;
-    font-family: "Great Vibes", cursive;
-    color: var(--primary-color);
-    font-weight: 100;
-    /* text-shadow: 0px 4px 0px rgb(0 0 0 / 35%); */
-}
-.text-owenr-simple {
-    color: black;
-    font-size: 2.5rem;
-    font-weight: bolder;
-}
-.text-owner-card {
-    font-size: 3.3rem;
-    font-weight: 600;
-}
 
 /* Footer CSS ovan */
 .footer-section {
@@ -227,3 +288,57 @@
 #SHAPE445 svg:last-child {
     fill: rgb(255, 255, 255);
 }
+
+/* FOOTER UPDATE 2024/10/13 */
+@media (max-width: 767px) {
+    #PARAGRAPH81 {
+        top: 380px;
+        left: 0px;
+        width: 420px;
+    }
+    #PARAGRAPH81.ladi-animation > .ladi-paragraph, #HEADLINE96.ladi-animation > .ladi-headline {
+        animation-name: fadeInUp;
+        animation-delay: 0s;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    #PARAGRAPH81 > .ladi-paragraph {
+        font-family: "Dancing Script", cursive;
+        font-size: 20px;
+        line-height: 1.4;
+        color: rgb(77, 77, 77);
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    
+    .ladi-paragraph {
+        width: 100%;
+        display: inline-block;
+        word-break: break-word;
+    }
+    .ladi-transition {
+        transition: all 150ms linear 0s;
+    }
+    #HEADLINE96 {
+        width: 272px;
+        top: 450px;
+        left: 72.1955px;
+        padding-bottom: 40px;
+    }
+    #HEADLINE96 > .ladi-headline {
+        font-family: VVRNIEEmUyBIZWFydGJlYXQudHRm;
+        font-size: 50px;
+        line-height: 1.6;
+        color: rgb(139, 91, 19);
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    .ladi-headline {
+        width: 100%;
+        display: inline-block;
+        word-break: break-word;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+@media (min-width: 768px) {}
