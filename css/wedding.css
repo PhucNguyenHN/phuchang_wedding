@@ -198,7 +198,7 @@ html{background-color:#fff}
 }
 
 #section_618560453 .section-bg.bg-loaded {
-    background-image: url(https://caoson-thuphuongwedding.thiepcuoionline.net/wp-content/uploads/2024/02/DSC04266-K-min-1.jpg);
+    background-image: url(../images/ph/anh_bia_pc.JPG);
 }
 
 #section_618560453 .section-bg {
@@ -255,7 +255,7 @@ html{background-color:#fff}
 }
 
 #section_1966327193 .section-bg.bg-loaded {
-    background-image: url(https://caoson-thuphuongwedding.thiepcuoionline.net/wp-content/uploads/2024/02/DSC04090-AP.jpg);
+    background-image: url(../images/ph/anh_bia_sp.png);
 }
 
 #section_1966327193 .section-bg {
@@ -269,8 +269,16 @@ html{background-color:#fff}
 }
 
 #col-1886956848 > .col-inner {
-    padding: 9px 7px 0px 3px;
+    border-radius: 7px;
+    padding: 24px 20px 24px 20px;
     margin: -0px 0px 0px;
+}
+@media (max-width: 767px) {
+    #col-1886956848 > .col-inner {
+        border-radius: 7px;
+        padding: 14px 14px 14px 14px;
+        margin: -0px 0px 0px;
+    }
 }
 
 @media (min-width: 550px) {
@@ -546,7 +554,7 @@ html{background-color:#fff}
     background-color: rgba(255, 255, 255, 0);
 }
 #banner-2019042354 .bg.bg-loaded {
-    background-image: url(https://caoson-thuphuongwedding.thiepcuoionline.net/wp-content/uploads/2024/02/DSC04033-K.jpg);
+    background-image: url(../images/ph/anh_phong_1.png);
 }
 #banner-2019042354 .bg {
     background-position: 3% 67%;
@@ -579,7 +587,7 @@ html{background-color:#fff}
     background-color: rgba(255, 255, 255, 0);
 }
 #banner-62673472 .bg.bg-loaded {
-    background-image: url(https://caoson-thuphuongwedding.thiepcuoionline.net/wp-content/uploads/2024/02/DSC04593-K.jpg);
+    background-image: url(../images/ph/anh_phong_3.jpg);
 }
 #banner-62673472 .bg {
     background-position: 43% 59%;
@@ -623,7 +631,7 @@ html{background-color:#fff}
     background-color: rgba(255, 255, 255, 0);
 }
 #banner-976626683 .bg.bg-loaded {
-    background-image: url(https://caoson-thuphuongwedding.thiepcuoionline.net/wp-content/uploads/2024/02/DSC04102-BAN-1.jpg);
+    background-image: url(../images/ph/anh_phong_4.png);
 }
 #banner-976626683 .bg {
     background-position: 83% 19%;
