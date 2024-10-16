@@ -127,19 +127,17 @@
                 musicPlayer.play();
                 playPauseButton.classList.add("playing");
             }
-            // function waitForUserInteraction() {
-            //     setTimeout(function() {
-            //         toggleMusic();
-            //     }, 3000);
-            //     document.removeEventListener('touchstart', waitForUserInteraction);
-            //     document.removeEventListener('keypress', waitForUserInteraction);
-            //     document.removeEventListener('scroll', waitForUserInteraction);
-
-            // }
-
-            // document.addEventListener('touchstart', waitForUserInteraction);
-            // document.addEventListener('keypress', waitForUserInteraction);
-            // document.addEventListener('scroll', waitForUserInteraction);
+            // Lắng nghe sự kiện visibilitychange để dừng nhạc khi chuyển sang tab khác và tiếp tục khi quay lại tab
+            document.addEventListener('visibilitychange', function() {
+                if (document.hidden) {
+                    // Khi tab bị ẩn, dừng phát nhạc
+                    musicPlayer.pause();
+                    isPlaying = false;
+                } else {
+                    musicPlayer.pause();
+                    isPlaying = true;
+                }
+            });
         </script>
         <div id="GROUP537" class="ladi-element">
             <div class="ladi-group">
