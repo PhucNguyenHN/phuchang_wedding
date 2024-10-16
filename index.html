@@ -107,7 +107,7 @@
                 <path d="M 7 5 C 6.449 5 6 5.449 6 6 L 6 20 C 6 20.551 6.449 21 7 21 L 10 21 C 10.551 21 11 20.551 11 20 L 11 6 C 11 5.449 10.551 5 10 5 L 7 5 z M 16 5 C 15.449 5 15 5.449 15 6 L 15 20 C 15 20.551 15.449 21 16 21 L 19 21 C 19.551 21 20 20.551 20 20 L 20 6 C 20 5.449 19.551 5 19 5 L 16 5 z"></path>
             </svg>
         </div>
-        <audio id="musicPlayer" loop="" autoplay="" src="audio/EM-DONG-Y-I-DO-DUC-PHUC-x-911-x-KHAC-HUNG-1ST-LIVE-STAGE.mp3" ></audio>
+        <audio id="musicPlayer" loop src="audio/EM-DONG-Y-I-DO-DUC-PHUC-x-911-x-KHAC-HUNG-1ST-LIVE-STAGE.mp3" ></audio>
         <script>
             var musicPlayer = document.getElementById("musicPlayer");
             var playPauseButton = document.querySelector(".tdk-music");
@@ -122,22 +122,22 @@
                     playPauseButton.classList.add("playing");
                 }
                 isPlaying = !isPlaying;
-                window.removeEventListener('scroll', toggleMusic);
+                // window.removeEventListener('scroll', toggleMusic);
             }
-            // function waitForUserInteraction() {
-            //     setTimeout(function() {
-            //         toggleMusic();
-            //     }, 2000);
-            //     document.removeEventListener('click', waitForUserInteraction);
-            //     document.removeEventListener('scroll', waitForUserInteraction);
-            //     document.removeEventListener('touchstart', waitForUserInteraction);
+            function waitForUserInteraction() {
+                setTimeout(function() {
+                    toggleMusic();
+                }, 3000);
+                document.removeEventListener('touchstart', waitForUserInteraction);
+                document.removeEventListener('keypress', waitForUserInteraction);
+                document.removeEventListener('scroll', waitForUserInteraction);
 
-            // }
+            }
 
-            // document.addEventListener('click', waitForUserInteraction);
-            // document.addEventListener('scroll', waitForUserInteraction);
-            // document.addEventListener('touchstart', waitForUserInteraction);
-            window.addEventListener('scroll', toggleMusic);
+            document.addEventListener('touchstart', waitForUserInteraction);
+            document.addEventListener('keypress', waitForUserInteraction);
+            document.addEventListener('scroll', waitForUserInteraction);
+            // window.addEventListener('scroll', toggleMusic);
         </script>
         <div id="GROUP537" class="ladi-element">
             <div class="ladi-group">
