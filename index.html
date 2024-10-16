@@ -122,6 +122,7 @@
                     playPauseButton.classList.add("playing");
                 }
                 isPlaying = !isPlaying;
+                window.removeEventListener('scroll', toggleMusic);
             }
             // function waitForUserInteraction() {
             //     setTimeout(function() {
