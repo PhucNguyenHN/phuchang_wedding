@@ -123,19 +123,20 @@
                 }
                 isPlaying = !isPlaying;
             }
-            function waitForUserInteraction() {
-                setTimeout(function() {
-                    toggleMusic();
-                }, 2000);
-                document.removeEventListener('click', waitForUserInteraction);
-                document.removeEventListener('scroll', waitForUserInteraction);
-                document.removeEventListener('touchstart', waitForUserInteraction);
+            // function waitForUserInteraction() {
+            //     setTimeout(function() {
+            //         toggleMusic();
+            //     }, 2000);
+            //     document.removeEventListener('click', waitForUserInteraction);
+            //     document.removeEventListener('scroll', waitForUserInteraction);
+            //     document.removeEventListener('touchstart', waitForUserInteraction);
 
-            }
+            // }
 
-            document.addEventListener('click', waitForUserInteraction);
-            document.addEventListener('scroll', waitForUserInteraction);
-            document.addEventListener('touchstart', waitForUserInteraction);
+            // document.addEventListener('click', waitForUserInteraction);
+            // document.addEventListener('scroll', waitForUserInteraction);
+            // document.addEventListener('touchstart', waitForUserInteraction);
+            window.addEventListener('scroll', toggleMusic);
         </script>
         <div id="GROUP537" class="ladi-element">
             <div class="ladi-group">
