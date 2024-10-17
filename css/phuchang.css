@@ -392,7 +392,6 @@
     }
 }
 
-
 /* Calender CSS */
 .calendar-div {
     background-color: rgb(255, 255, 255);
@@ -451,12 +450,6 @@ td.day-10 {
     border-radius: 50%;
     padding: 10px;
 }
-@media screen and (max-width: 600px) {
-    .calendar-div {
-        width: 95%;
-        height: 78%;
-    }
-}
 
 /* PC */
 @media (min-width: 768px) {
@@ -474,7 +467,75 @@ td.day-10 {
     }
 }
 /* SP */
+
+.wedding-verse {
+    font-family: "Dancing Script", cursive;
+    font-size: 32px;
+    line-height: 1.1;
+    color: rgb(221, 17, 17);
+    letter-spacing: 0px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
+}
+@media (max-width: 900px) {
+    .calendar-div {
+        width: 90%;
+        height: 65%;
+    }
+}
+@media (max-width: 800px) {
+    .calendar-div {
+        width: 95%;
+    }
+    .calendar-div .save-date {
+        font-size: 40px;
+    }
+}
 @media (max-width: 767px) {
+    #PARAGRAPH81 {
+        top: 380px;
+        left: 0px;
+        width: 100%;
+    }
+    #HEADLINE96 {
+        width: 100%;
+        top: 450px;
+        left: 0px;
+        padding-bottom: 40px;
+    }
+    th, td {
+        font-weight: bold;
+        padding: 7px;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        border: none;
+        position: relative;
+    }
+    td {
+        font-size: 14px;
+    }
+}
+@media (max-width: 700px) {
+    
+}
+@media screen and (max-width: 600px) {
+    .calendar-div {
+        width: 95%;
+        height: 78%;
+    }
+}
+
+@media (max-width: 550px) {
+    .text-owner {
+        font-size: 1.8rem;
+    }
+    .calendar-div .save-date {
+        font-size: 40px;
+    }
+    .calendar-div {
+        width: 90%;
+    }
     th, td {
         font-weight: bold;
         padding: 10px;
@@ -488,13 +549,47 @@ td.day-10 {
         font-size: 16px;
     }
 }
+@media (max-width: 380px) {
+    th, td {
+        font-weight: bold;
+        padding: 7px;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        border: none;
+        position: relative;
+    }
+    td {
+        font-size: 14px;
+    }
 
-.wedding-verse {
-    font-family: "Dancing Script", cursive;
-    font-size: 32px;
-    line-height: 1.1;
-    color: rgb(221, 17, 17);
-    letter-spacing: 0px;
-    text-align: center;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
+}
+@media (max-width: 330px) {
+    .text-owner {
+        font-size: 1.5rem;
+    }
+    .container-phuchang .text-a, .container-phuchang .text-b, .container-phuchang .text-c {
+        font-size: 2.2rem;
+    }
+    th, td {
+        font-weight: bold;
+        padding: 7px;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        border: none;
+        position: relative;
+    }
+    td {
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 300px) {
+    .text-owner {
+        font-size: 1.2rem;
+    }
+    .container-phuchang .text-a, .container-phuchang .text-b, .container-phuchang .text-c {
+        font-size: 1.8rem;
+    }
 }
