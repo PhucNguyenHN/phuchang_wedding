@@ -590,7 +590,7 @@ td.day-10 {
     font-size: 1.25rem !important;
 }
 .map-info-container .info-wrapper .location-info .qr-code-image {
-    max-width: 150px;
+    max-height: 160px;
     display: block;
     cursor: zoom-in;
 }
@@ -716,6 +716,9 @@ td.day-10 {
     }
     td {
         font-size: 14px;
+    }
+    #donate {
+        background-image: url(../images/background/Backgrou-24.jpg);
     }
     #donate .row-custom {
         margin: auto;
