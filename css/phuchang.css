@@ -779,6 +779,9 @@ td.day-10 {
     }
 }
 @media (max-width: 380px) {
+    .text-owner {
+        font-size: 1.65rem;
+    }
     th, td {
         font-weight: bold;
         padding: 7px;
